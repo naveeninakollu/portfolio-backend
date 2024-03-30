@@ -68,6 +68,18 @@
 					</excludes>
 				</configuration>
 			</plugin>
+			
+			
+			<plugin>
+			    <groupId>org.apache.maven.plugins</groupId>
+			    <artifactId>maven-compiler-plugin</artifactId>
+			     <!-- Or the latest compatible version -->
+			    <configuration>
+			        <release>11</release> <!-- Use only with JDK 9+ -->
+			    </configuration>
+			</plugin>
+
+			
 		</plugins>
 	</build>
 
